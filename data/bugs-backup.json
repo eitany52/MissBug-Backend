@@ -1,0 +1,161 @@
+[
+    {
+        "_id": "abc123",
+        "title": "Cannot save a Car",
+        "description": "problem when clicking Save",
+        "severity": 3,
+        "createdAt": 1542107359454,
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "creator": {
+            "_id": "T35bjw",
+            "fullname": "Muki Ja"
+        }
+    },
+    {
+        "_id": "def456",
+        "title": "Cannot remove a Car",
+        "description": "",
+        "severity": 4,
+        "createdAt": 1554107389454,
+        "labels": [
+            "critical",
+            "need-CR"
+        ],
+        "creator": {
+            "_id": "T35bjw",
+            "fullname": "Muki Ja"
+        }
+    },
+    {
+        "_id": "ghi789",
+        "title": "Cannot show all the cars",
+        "description": "",
+        "severity": 5,
+        "createdAt": 1642127659454,
+        "labels": [
+            "need-CR",
+            "dev-branch"
+        ],
+        "creator": {
+            "_id": "8Cr4lI",
+            "fullname": "Dor Wein"
+        }
+    },
+    {
+        "_id": "jkl101112",
+        "title": "Cannot update the selected Car",
+        "description": "",
+        "severity": 6,
+        "createdAt": 2542137459454,
+        "labels": [
+            "need-CR"
+        ],
+        "creator": {
+            "_id": "8Cr4lI",
+            "fullname": "Dor Wein"
+        }
+    },
+    {
+        "_id": "mno131415",
+        "title": "Cannot show details about the selected Car",
+        "description": "",
+        "severity": 7,
+        "createdAt": 3652147859454,
+        "labels": [
+            "critical",
+            "dev-branch"
+        ],
+        "creator": {
+            "_id": "U9Ccsj",
+            "fullname": "Daniel Vaknin"
+        }
+    },
+    {
+        "title": "asdasdasd",
+        "description": "adasdasd",
+        "severity": 10,
+        "_id": "LFoB4s",
+        "createdAt": 1722269827805,
+        "labels": [
+            "critical"
+        ],
+        "creator": {
+            "_id": "jLacKm",
+            "fullname": "Yonit Levi"
+        }
+    },
+    {
+        "title": "zfdsfsdfsdf",
+        "description": "sdfsdf",
+        "severity": 6,
+        "_id": "p5MLEQ",
+        "createdAt": 1722269843398,
+        "labels": [
+            "dev-branch"
+        ],
+        "creator": {
+            "_id": "jLacKm",
+            "fullname": "Yonit Levi"
+        }
+    },
+    {
+        "_id": "46oEJt",
+        "title": "hsdfsdfsdf",
+        "description": "dfsdf",
+        "severity": 5,
+        "labels": [
+            "critical",
+            "need-CR",
+            "dev-branch"
+        ],
+        "createdAt": 1722269853924,
+        "creator": {
+            "_id": "jLacKm",
+            "fullname": "Yonit Levi"
+        }
+    },
+    {
+        "_id": "zinUwC",
+        "title": "vbnvbnvbn",
+        "description": "sdfsdf",
+        "severity": 8,
+        "labels": [],
+        "createdAt": 1722269866883,
+        "creator": {
+            "_id": "otjqbE",
+            "fullname": "Lior Yakubov"
+        }
+    },
+    {
+        "_id": "Sj4NA5",
+        "title": "fsdfsdf",
+        "description": "sdfsdf",
+        "severity": 7,
+        "labels": [
+            "dev-branch"
+        ],
+        "createdAt": 1722344414842,
+        "creator": {
+            "_id": "otjqbE",
+            "fullname": "Lior Yakubov"
+        }
+    },
+    {
+        "_id": "u1AYy9",
+        "title": "werwer",
+        "description": "ewrwer",
+        "severity": 2,
+        "labels": [
+            "hey"
+        ],
+        "createdAt": 1723053251605,
+        "creator": {
+            "_id": "E5vH95",
+            "fullname": "Yoni"
+        }
+    }
+]
