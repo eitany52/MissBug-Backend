@@ -1,4 +1,5 @@
 import express from 'express'
+import path from 'path'
 import cors from 'cors'
 import cookieParser from 'cookie-parser'
 import { bugRoutes } from './api/bug/bug.routes.js'
@@ -29,6 +30,10 @@ app.use('/api/auth', authRoutes)
 
 app.get('/', (req, res) => {
     res.send('hello there')
+})
+
+app.get('/**', (req, res) => {
+    res.sendFile(path.resolve('public/index.html'))
 })
 
 const port = process.env.PORT || 3030;
