@@ -37,12 +37,12 @@ function _filterBugs(bugs, filterBy) {
         bugs = bugs.filter(bug => bug.severity >= minSeverity)
     }
     if (labels && labels.length) {
-        bugs = bugs.filter(bug => {
+        bugs = bugs.filter(bug =>
             bug.labels.some(label => {
                 const regExp = new RegExp(label, 'i')
-                regExp.test(labels)
+                return regExp.test(labels)
             })
-        })
+        )
     }
 
     return bugs

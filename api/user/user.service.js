@@ -13,7 +13,7 @@ const path = 'data/users.json'
 async function query(loggedInUser = {}, isAllowed = false) {
     try {
         if (!loggedInUser.isAdmin && !isAllowed) throw new Error("Only the admin is allowed to see the list of users")
-        let users = readJsonFile(path)
+        const users = readJsonFile(path)
         return users
     }
     catch (error) {
@@ -24,9 +24,9 @@ async function query(loggedInUser = {}, isAllowed = false) {
 
 async function save(userToSave, loggedInUser) {
     try {
+        const users = await query(loggedInUser, true)
         if (userToSave._id) {
             if (!loggedInUser.isAdmin) throw new Error("Only the admin is allowed to update users")
-            const users = await query(loggedInUser)
             const userIdx = users.findIndex(user => user._id === userToSave._id)
             if (userIdx < 0) throw new Error(`Couldn't update user with _id ${userToSave._id}`)
             users[userIdx] = userToSave

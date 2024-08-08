@@ -118,3 +118,33 @@
 8.8.2024, 0:45:13 - ERROR - Cannot login | Error: Invalid username or password
 8.8.2024, 0:45:18 - ERROR - Cannot login | Error: Invalid username or password
 8.8.2024, 0:46:33 - ERROR - Cannot login | Error: Invalid username or password
+8.8.2024, 19:24:34 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 19:24:45 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 20:05:32 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 20:24:49 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 20:25:00 - ERROR - Cannot login | Error: Invalid username or password
+8.8.2024, 20:36:50 - ERROR - Cannot save bug | Error: Cannot update someone else's bug
+8.8.2024, 20:36:58 - ERROR - Cannot remove bug. | Error: Cannot remove someone else's bug
+8.8.2024, 20:37:11 - ERROR - Cannot save bug | Error: Cannot update someone else's bug
+8.8.2024, 20:38:19 - ERROR - Cannot save bug | Error: Cannot update someone else's bug
+8.8.2024, 20:38:22 - ERROR - Cannot save bug | Error: Cannot update someone else's bug
+8.8.2024, 20:38:32 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 20:39:09 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 20:39:23 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 20:39:51 - ERROR - Cannot save user | ReferenceError: users is not defined
+8.8.2024, 20:41:48 - ERROR - Cannot save user | ReferenceError: users is not defined
+8.8.2024, 20:43:21 - ERROR - Cannot save user | ReferenceError: users is not defined
+8.8.2024, 20:45:10 - ERROR - Cannot save user | ReferenceError: users is not defined
+8.8.2024, 21:09:45 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 21:10:23 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 21:11:13 - ERROR - Cannot get user. | Error: Cannot see someone else's user
+8.8.2024, 21:17:43 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 21:39:30 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 22:17:36 - ERROR - Cannot login | Error: Username not found
+8.8.2024, 22:17:53 - ERROR - Cannot login | Error: Invalid username or password
+8.8.2024, 22:19:37 - ERROR - Cannot signup | Error: Username already exists
+8.8.2024, 22:19:58 - ERROR - Cannot save user | TypeError: Cannot read properties of null (reading 'push')
+8.8.2024, 22:19:58 - ERROR - Cannot signup | TypeError: Cannot read properties of null (reading 'push')
+8.8.2024, 22:29:16 - ERROR - Cannot signup | Error: Username already exists
+8.8.2024, 22:30:33 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
+8.8.2024, 22:30:54 - ERROR - Cannot login | Error: Invalid username or password

@@ -11,24 +11,6 @@ export const getUsers = async (req, res) => {
     }
 }
 
-export const addUser = async (req, res) => {
-    const { fullname, username, password, score } = req.body
-    let userToSave = {
-        fullname: fullname || '',
-        username: username || '',
-        password: password || '',
-        score: +score
-    }
-
-    try {
-        userToSave = await userService.save(userToSave)
-        res.send(userToSave)
-    } catch (error) {
-        console.log("Cannot add user.", error)
-        res.status(400).send("Cannot add user.")
-    }
-}
-
 export const updateUser = async (req, res) => {
     const { _id, fullname, username, password, score } = req.body
     const loggedInUser = req.loggedInUser

@@ -1,17 +1,17 @@
 [
     {
+        "_id": "E5vH95",
         "fullname": "Yoni",
         "username": "Yon",
         "password": "$2b$10$RNMcnmGc2QRq38cdL1B8CuIxm7JfIW.vyS5/PzBOJSZdpVo.tTXxq",
-        "score": 57,
-        "_id": "E5vH95"
+        "score": 50
     },
     {
+        "_id": "T35bjw",
         "fullname": "Muki Ja",
         "username": "muki",
         "password": "$2b$10$lRGKi0RMU2yb.xdmsaciGuf4O.tIkVO2O8AukXKO9KC9GlqS3DAgW",
-        "_id": "T35bjw",
-        "score": 100
+        "score": 33
     },
     {
         "fullname": "Dor Wein",
@@ -48,5 +48,12 @@
         "_id": "FNmpj0",
         "score": 100,
         "isAdmin": true
+    },
+    {
+        "fullname": "Elad",
+        "username": "Elad",
+        "password": "$2b$10$V8kKeZ0j/UNEqoS2s5tReeZsdR34moO1h0d3WazNfokD3.Nj4mMVi",
+        "_id": "7NDxdw",
+        "score": 100
     }
 ]

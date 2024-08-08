@@ -3,7 +3,7 @@
         "_id": "abc123",
         "title": "Cannot save a Car",
         "description": "problem when clicking Save",
-        "severity": 2,
+        "severity": 5,
         "labels": [
             "critical",
             "need-CR",
@@ -34,7 +34,7 @@
         "_id": "ghi789",
         "title": "Cannot show all the cars",
         "description": "",
-        "severity": 2,
+        "severity": 5,
         "labels": [
             "need-CR",
             "dev-branch"
@@ -49,7 +49,7 @@
         "_id": "jkl101112",
         "title": "Cannot update the selected Car",
         "description": "",
-        "severity": 2,
+        "severity": 5,
         "labels": [
             "need-CR"
         ],
@@ -63,12 +63,12 @@
         "_id": "mno131415",
         "title": "Cannot show details about the selected Car",
         "description": "",
-        "severity": 7,
-        "createdAt": 3652147859454,
+        "severity": 2,
         "labels": [
             "critical",
             "dev-branch"
         ],
+        "createdAt": 3652147859454,
         "creator": {
             "_id": "U9Ccsj",
             "fullname": "Daniel Vaknin"
@@ -78,7 +78,7 @@
         "_id": "LFoB4s",
         "title": "asdasdasd",
         "description": "adasdasd",
-        "severity": 1,
+        "severity": 3,
         "labels": [
             "critical"
         ],
@@ -122,7 +122,7 @@
         "_id": "zinUwC",
         "title": "vbnvbnvbn",
         "description": "sdfsdf",
-        "severity": 2,
+        "severity": 3,
         "labels": [],
         "createdAt": 1722269866883,
         "creator": {
@@ -142,20 +142,6 @@
         "creator": {
             "_id": "otjqbE",
             "fullname": "Lior Yakubov"
-        }
-    },
-    {
-        "_id": "F70kS6",
-        "title": "dfgdfg",
-        "description": "dfgdfg",
-        "severity": 6,
-        "labels": [
-            "hey"
-        ],
-        "createdAt": 1723067179258,
-        "creator": {
-            "_id": "E5vH95",
-            "fullname": "Yoni"
         }
     }
 ]
