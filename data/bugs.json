@@ -143,5 +143,19 @@
             "_id": "otjqbE",
             "fullname": "Lior Yakubov"
         }
+    },
+    {
+        "title": "asdasd",
+        "description": "asdasd",
+        "severity": 5,
+        "labels": [
+            "hello"
+        ],
+        "_id": "1fGq9E",
+        "createdAt": 1723147189486,
+        "creator": {
+            "_id": "jLacKm",
+            "fullname": "Yonit Levi"
+        }
     }
 ]
