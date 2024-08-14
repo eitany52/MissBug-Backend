@@ -1,14 +1,13 @@
-import { json } from "express"
 import { bugService } from "./bug.service.js"
 
 export const getBugs = async (req, res) => {
     const { txt, minSeverity, labels, sortBy, sortDir, pageIdx } = req.query
     const filterBy = {
-        txt,
-        minSeverity: +minSeverity,
+        txt: txt || '',
+        minSeverity: +minSeverity || 0,
         labels: labels || [],
-        sortBy,
-        sortDir: +sortDir
+        sortBy: sortBy || '',
+        sortDir: +sortDir || null
     }
     if (pageIdx) filterBy.pageIdx = +pageIdx
     try {
@@ -46,7 +45,6 @@ export const updateBug = async (req, res) => {
         description,
         severity,
         labels,
-        createdAt,
         creator } = req.body
     const loggedInUser = req.loggedInUser
     let bugToSave = {
@@ -55,7 +53,6 @@ export const updateBug = async (req, res) => {
         description,
         severity: +severity,
         labels,
-        createdAt,
         creator
     }
 

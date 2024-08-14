@@ -1,9 +1,6 @@
-const user = {
+const regExp = new RegExp("Hell", 'i')
 
-}
-
-console.log(!user.isAdmin);
-
+console.log(regExp.test("Hello"));
 
 
 

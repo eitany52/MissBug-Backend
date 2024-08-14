@@ -1,51 +1,65 @@
 [
     {
+        "_id": "E5vH95",
         "fullname": "Yoni",
         "username": "Yon",
         "password": "$2b$10$RNMcnmGc2QRq38cdL1B8CuIxm7JfIW.vyS5/PzBOJSZdpVo.tTXxq",
-        "score": 57,
-        "_id": "E5vH95"
+        "score": 50,
+        "isAdmin": true
     },
     {
+        "_id": "T35bjw",
         "fullname": "Muki Ja",
         "username": "muki",
         "password": "$2b$10$lRGKi0RMU2yb.xdmsaciGuf4O.tIkVO2O8AukXKO9KC9GlqS3DAgW",
-        "_id": "T35bjw",
-        "score": 100
+        "score": 33,
+        "isAdmin": true
     },
     {
         "fullname": "Dor Wein",
         "username": "Dor",
         "password": "$2b$10$uUrC6jauplAGT.8M.17wZeNarflwHKAtLn.oi0KgjFZgxrtRT00ny",
         "_id": "8Cr4lI",
-        "score": 100
+        "score": 100,
+        "isAdmin": true
     },
     {
         "fullname": "Daniel Vaknin",
         "username": "Daniel",
         "password": "$2b$10$sLPYs5CzpAvie0pTel4kGuNWhXYsNTs/OJaKaXTSbrifcNfmLKxES",
         "_id": "U9Ccsj",
-        "score": 100
+        "score": 100,
+        "isAdmin": true
     },
     {
         "fullname": "Yonit Levi",
         "username": "Yonit",
         "password": "$2b$10$9XZvtQDMPxmfUPDahI.rGejWja3XRCWXu7Mk.KNuvFMJQ8MJeMWRm",
         "_id": "jLacKm",
-        "score": 100
+        "score": 100,
+        "isAdmin": true
     },
     {
         "fullname": "Lior Yakubov",
         "username": "horhe",
         "password": "$2b$10$I3DZRykr7RUm.7Jd1Kupk.0.pwaPCxQoUUO0Pg.pLhk9278M2ej/6",
         "_id": "otjqbE",
-        "score": 100
+        "score": 100,
+        "isAdmin": true
     },
     {
         "fullname": "Eitan",
         "username": "Eitan",
         "password": "$2b$10$L3ZpcalWik5JU40/5RenY.i1KJMIq/hGSKHprrd200sqJ2Pf9bFSu",
         "_id": "FNmpj0",
+        "score": 100,
+        "isAdmin": true
+    },
+    {
+        "fullname": "Elad",
+        "username": "Elad",
+        "password": "$2b$10$V8kKeZ0j/UNEqoS2s5tReeZsdR34moO1h0d3WazNfokD3.Nj4mMVi",
+        "_id": "7NDxdw",
         "score": 100,
         "isAdmin": true
     }

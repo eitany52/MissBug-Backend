@@ -49,7 +49,8 @@ async function signup(credentials) {
         })
         return {
             _id: user._id,
-            fullname: user.fullname
+            fullname: user.fullname,
+            isAdmin: user.isAdmin
         }
     } catch (error) {
         loggerService.error("Cannot signup", error)

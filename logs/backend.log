@@ -148,3 +148,52 @@
 8.8.2024, 22:29:16 - ERROR - Cannot signup | Error: Username already exists
 8.8.2024, 22:30:33 - ERROR - Cannot get users | Error: Only the admin is allowed to see the list of users
 8.8.2024, 22:30:54 - ERROR - Cannot login | Error: Invalid username or password
+13.8.2024, 1:39:04 - ERROR - Cannot get bug. | BSONError: hex string must be 24 characters
+13.8.2024, 17:14:57 - ERROR - Cannot signup | ReferenceError: collection is not defined
+13.8.2024, 17:14:57 - ERROR - Cannot save user | ReferenceError: collection is not defined
+13.8.2024, 17:22:39 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:22:53 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:23:10 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:23:44 - ERROR - Cannot login | Error: Invalid username or password
+13.8.2024, 17:25:07 - ERROR - Cannot save bug | TypeError: bugToSave._id.getTimestemp is not a function
+13.8.2024, 17:36:06 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:37:16 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:37:19 - ERROR - Cannot login | Error: Invalid username or password
+13.8.2024, 17:37:27 - ERROR - Cannot login | Error: Username not found
+13.8.2024, 17:39:13 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 17:39:54 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 17:46:32 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 17:48:20 - ERROR - Cannot save bug | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+13.8.2024, 17:49:02 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 17:54:51 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 17:56:21 - ERROR - Cannot save bug | TypeError: bugToSave._id.getTimestamp is not a function
+13.8.2024, 18:05:25 - ERROR - Cannot save bug | Error: Couldn't update bug with _id 66bb6feb0df29e7a5f3a4ffb
+13.8.2024, 18:32:15 - ERROR - Cannot save bug | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+13.8.2024, 18:33:13 - ERROR - Cannot save bug | MongoServerError: Performing an update on the path '_id' would modify the immutable field '_id'
+13.8.2024, 20:34:14 - ERROR - Cannot get users | TypeError: dbService.getCollection(...).toArray is not a function
+13.8.2024, 20:36:20 - ERROR - Cannot save user | Error: Couldn't update user with _id 66bb6af7599fdf4607f6021e
+14.8.2024, 17:47:35 - ERROR - Cannot save message | ReferenceError: aboutBugId is not defined
+14.8.2024, 17:52:08 - ERROR - Cannot save message | ReferenceError: aboutBugId is not defined
+14.8.2024, 17:54:10 - ERROR - Cannot save message | ReferenceError: aboutBugId is not defined
+14.8.2024, 17:55:49 - ERROR - Having issues with aggregating message | BSONError: hex string must be 24 characters
+14.8.2024, 17:55:49 - ERROR - Cannot save message | BSONError: hex string must be 24 characters
+14.8.2024, 18:00:04 - ERROR - Having issues with aggregating message | BSONError: hex string must be 24 characters
+14.8.2024, 18:00:04 - ERROR - Cannot save message | BSONError: hex string must be 24 characters
+14.8.2024, 18:01:41 - ERROR - Having issues with aggregating message | ReferenceError: aboutBugId is not defined
+14.8.2024, 18:01:41 - ERROR - Cannot save message | ReferenceError: aboutBugId is not defined
+14.8.2024, 18:03:42 - ERROR - Having issues with aggregating message | MongoServerError: title is not allowed or the syntax is incorrect, see the Atlas documentation for more information
+14.8.2024, 18:03:42 - ERROR - Cannot save message | MongoServerError: title is not allowed or the syntax is incorrect, see the Atlas documentation for more information
+14.8.2024, 21:22:01 - ERROR - Cannot save message | Error: Couldn't update message with _id 66bcf49441f59ba5f73d08d3
+14.8.2024, 21:38:20 - ERROR - Cannot remove message | Error: Cannot remove message with _id 66bcf8f42ad3829926bd9699
+14.8.2024, 21:40:01 - ERROR - Cannot remove message | Error: Cannot remove message with _id 66bcf99ea8b6706538f04a24
+14.8.2024, 22:50:34 - ERROR - Cannot remove message | Error: Only the admin is allowed to remove messages
+14.8.2024, 22:50:59 - ERROR - Cannot save message | Error: Only the admin is allowed to update messages
+14.8.2024, 22:51:13 - ERROR - Cannot save message | Error: Only the admin is allowed to update messages
+14.8.2024, 22:51:15 - ERROR - Cannot save message | Error: Only the admin is allowed to update messages
+14.8.2024, 22:51:17 - ERROR - Cannot save message | Error: Only the admin is allowed to update messages
+14.8.2024, 22:51:19 - ERROR - Cannot save message | Error: Only the admin is allowed to update messages
+14.8.2024, 22:51:21 - ERROR - Cannot remove message | Error: Only the admin is allowed to remove messages
+14.8.2024, 22:51:23 - ERROR - Cannot remove message | Error: Only the admin is allowed to remove messages
+14.8.2024, 22:51:24 - ERROR - Cannot remove message | Error: Only the admin is allowed to remove messages
+14.8.2024, 22:51:26 - ERROR - Cannot remove message | Error: Only the admin is allowed to remove messages
+14.8.2024, 22:53:36 - ERROR - Cannot get bugs | MongoServerError: unknown operator: $regexp
