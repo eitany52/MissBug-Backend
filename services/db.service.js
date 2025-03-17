@@ -1,8 +1,8 @@
 import { MongoClient } from "mongodb"
 import { loggerService } from "./logger.service.js"
 
-const url = "mongodb+srv://eitany52:Eitany11040050@cluster0.boqng.mongodb.net/"
-const dbName = "BUG_DB"
+const url = process.env.MONGO_URL
+const dbName = process.env.DB_NAME
 let db = null
 
 export const dbService = {
